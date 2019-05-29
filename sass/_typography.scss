@@ -7,10 +7,10 @@ button,
 input,
 select,
 textarea {
-	color: $color__text-main;
-	font-family: $font__main;
+	color: #fff;
+	font-family: Exo Web,sans-serif;
 	font-size: 1rem;
-	line-height: $font__line-height-body;
+	line-height: 1.5;
 }
 
 /* Headings */
@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin-bottom: $base__space-unit;
+	
 }
 
 dfn, cite, em, i {
