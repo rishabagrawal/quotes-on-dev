@@ -24,13 +24,20 @@ button{
 }
 @include desktop{
 .site-content{
-    article{
+    margin: 4.5rem 175px 1.5rem;
+    position: relative;
+    // article{
         &::before {
             font-family: "FontAwesome"; 
             font-weight: 400; 
             font-size: 125px;
              content: "\f10d";
              color:#0c0;
+            position: absolute;
+            top: 0;
+            left: -173px;
+           
+            
           }
           &::after {
             font-family: "FontAwesome"; 
@@ -38,8 +45,12 @@ button{
             font-size: 125px;
              content: "\f10e";
              color:#0c0;
+             position:absolute;
+             top: 0;
+             right: -173px;
+             
           }
-    }
+    // }
 }
 }
 

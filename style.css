@@ -453,7 +453,6 @@ a {
   float: left;
   width: 100%; }
   .main-navigation ul {
-    display: none;
     list-style: none;
     margin: 0;
     padding-left: 0; }
@@ -595,18 +594,27 @@ button {
           box-shadow: 0; }
 
 @media (min-width: 1080px) {
-  .site-content article::before {
-    font-family: "FontAwesome";
-    font-weight: 400;
-    font-size: 125px;
-    content: "\f10d";
-    color: #0c0; }
-  .site-content article::after {
-    font-family: "FontAwesome";
-    font-weight: 400;
-    font-size: 125px;
-    content: "\f10e";
-    color: #0c0; } }
+  .site-content {
+    margin: 4.5rem 175px 1.5rem;
+    position: relative; }
+    .site-content::before {
+      font-family: "FontAwesome";
+      font-weight: 400;
+      font-size: 125px;
+      content: "\f10d";
+      color: #0c0;
+      position: absolute;
+      top: 0;
+      left: -173px; }
+    .site-content::after {
+      font-family: "FontAwesome";
+      font-weight: 400;
+      font-size: 125px;
+      content: "\f10e";
+      color: #0c0;
+      position: absolute;
+      top: 0;
+      right: -173px; } }
 
 .blog .entry-content p {
   font-size: 1.25rem;
