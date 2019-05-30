@@ -8,6 +8,9 @@ body{
     padding: 2.5%;
     width: 100%;
 }
+.logo{
+    width: 300px;
+}
 button{
     background-color: #222;
     border: 2px solid #0c0;
@@ -17,4 +20,36 @@ button{
     font-weight: 700;
     line-height: 1;
     padding: .75rem 2.25rem;
+    box-shadow: 0;
+}
+@include desktop{
+.site-content{
+    article{
+        &::before {
+            font-family: "FontAwesome"; 
+            font-weight: 400; 
+            font-size: 125px;
+             content: "\f10d";
+             color:#0c0;
+          }
+          &::after {
+            font-family: "FontAwesome"; 
+            font-weight: 400; 
+            font-size: 125px;
+             content: "\f10e";
+             color:#0c0;
+          }
+    }
+}
+}
+
+.blog{
+    .entry-content  p{
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+    .entry-title {
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
 }

@@ -18,7 +18,7 @@
 		<?php the_content(); ?>
 	</div><!-- .entry-content -->
 
-	<div class="entery-meta">
+	<div class="entry-meta">
 	<?php the_title('<h2 class="entry-title">&mdash; ', '</h2>'); ?>
 	<?php if($source && $source_url): ?>
 		<span class="source"> <a href="<?php echo $source_url; ?>">
