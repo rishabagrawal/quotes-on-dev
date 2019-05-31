@@ -5,7 +5,7 @@
 
         $.ajax({
             method: 'get',
-            url: api_vars.rest_url + '/wp/v2/posts?filter[orderby]=rand&filter[posts_per_page]=1'
+            url: api_vars.rest_url + 'wp/v2/posts?filter[orderby]=rand&filter[posts_per_page]=1'
            
         }).done(function(data){
             const $title = data[0].title.rendered;
@@ -21,6 +21,7 @@
         });
             
 
+        
         });
 
 })(jQuery);

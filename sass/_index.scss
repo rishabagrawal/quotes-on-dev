@@ -79,3 +79,17 @@ button{
         font-weight: 300;
     }
 }
+.site-info{
+    display: flex;
+   flex-wrap: wrap;
+   margin: 4.5rem 0 3rem;
+    @include desktop{
+
+        justify-content: flex-end;
+    }
+}
+// footer {
+//     @include desktop{
+//         justify-content: flex-end;
+//     }
+// }
