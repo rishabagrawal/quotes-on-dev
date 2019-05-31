@@ -10,6 +10,12 @@ body{
 }
 .logo{
     width: 300px;
+    @include desktop{
+       margin: 0 auto;
+       
+
+    }
+
 }
 button{
     background-color: #222;
@@ -20,13 +26,22 @@ button{
     font-weight: 700;
     line-height: 1;
     padding: .75rem 2.25rem;
-    box-shadow: 0;
+   
 }
+#new-quote-button{
+    display: block;
+@include desktop{
+    
+        margin: 0 auto;
+    }
+}
+
+
 @include desktop{
 .site-content{
     margin: 4.5rem 175px 1.5rem;
     position: relative;
-    // article{
+   
         &::before {
             font-family: "FontAwesome"; 
             font-weight: 400; 
@@ -50,7 +65,7 @@ button{
              right: -173px;
              
           }
-    // }
+   
 }
 }
 
