@@ -16,7 +16,7 @@ get_header(); ?>
             </header >
 
             <?php
-            if(is_user_logged_in () && current_user_can ('edit_posts') ):
+            if(is_user_logged_in() && current_user_can('edit_posts')):
             ?>
             
             <div class="quote-submission-wrapper">

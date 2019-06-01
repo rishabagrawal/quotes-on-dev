@@ -20,7 +20,7 @@
             const $quoteSource = data[0]._qod_quote_source;
             const $quoteSourceUrl = data[0]._qod_quote_source_url;
             const randomQuote = data [0];
-             console.log(data);
+            
              
 
             
@@ -42,7 +42,7 @@
 
         function postQuote(event){
             event.preventDefault();
-            console.log('form submitted');
+           
 
             const quoteAuthor= $('#quote-author').val();
             const quoteContent= $('#quote-content').val();
@@ -74,10 +74,12 @@
 
                 }
             }).done(function(){
-                console.log('great success');
+               
                 $('#quote-submission-form').slideUp(500);
 
             }).fail(function(){
+                
+        
 
             });
         }

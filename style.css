@@ -489,7 +489,8 @@ a {
     text-decoration: none;
     color: #0c0;
     padding: 0 1em 0 1em;
-    border-right: white 1px solid; }
+    border-right: white 1px solid;
+    font-weight: 100; }
 
 /* Small menu. */
 .menu-toggle,
@@ -659,7 +660,8 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  list-style-type: none; }
+  list-style-type: none;
+  font-weight: 100; }
   .post-archives ul li {
     margin-bottom: 0.5rem;
     margin-right: 1.2rem; }
@@ -670,7 +672,8 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  list-style-type: none; }
+  list-style-type: none;
+  font-weight: 100; }
   .category-archives ul li {
     margin-bottom: 0.5rem;
     margin-right: 1.1rem; }
@@ -681,7 +684,8 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  list-style: none; }
+  list-style: none;
+  font-weight: 100; }
   .tag-archives ul li {
     margin-bottom: 0.5rem;
     margin-right: 1.01rem; }
