@@ -14,11 +14,13 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php the_post_navigation(); ?>
+	
 
 		<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+	<?php if( is_home()|| is_single() ):   ?>
+	<button type="button" id="new-quote-button">Show Me Another!</button>
+<?php endif; ?>
 <?php get_footer(); ?>

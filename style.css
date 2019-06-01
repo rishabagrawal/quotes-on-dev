@@ -369,6 +369,9 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
+a {
+  text-decoration: none; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -437,7 +440,7 @@ textarea {
 --------------------------------------------------------------*/
 /* Links */
 a {
-  color: royalblue; }
+  color: #0c0; }
   a:visited {
     color: #0c0; }
   a:hover, a:focus, a:active {
@@ -649,6 +652,39 @@ button {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end; } }
+
+.post-archives ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none; }
+  .post-archives ul li {
+    margin-bottom: 0.5rem;
+    margin-right: 1.2rem; }
+
+.category-archives ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none; }
+  .category-archives ul li {
+    margin-bottom: 0.5rem;
+    margin-right: 1.1rem; }
+
+.tag-archives ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none; }
+  .tag-archives ul li {
+    margin-bottom: 0.5rem;
+    margin-right: 1.01rem; }
 
 /*--------------------------------------------------------------
 # Content

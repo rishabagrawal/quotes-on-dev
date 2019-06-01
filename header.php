@@ -26,7 +26,7 @@
 					<div class="logo">
 						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<h1 class="header-image">
-						<a href="#">
+						<a href="<?php echo home_url('/'); ?>" rel="home">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/qod-logo.svg" alt="logo">
 						</a>
 						</h1>
