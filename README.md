@@ -22,7 +22,7 @@ Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Br
 
 And now would be a good time to `git init` :)
 
-##Technology Used
+## Technology Used
 
 * Gulp
 * Wordpress
