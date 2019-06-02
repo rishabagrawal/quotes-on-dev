@@ -638,17 +638,17 @@ button {
       top: 0;
       right: -173px; } }
 
-.blog .entry-content p {
+.blog .entry-content p, .archive .entry-content p {
   font-size: 1.25rem;
   font-weight: 300; }
   @media (min-width: 620px) {
-    .blog .entry-content p {
+    .blog .entry-content p, .archive .entry-content p {
       font-size: 1.75rem; } }
   @media (min-width: 1080px) {
-    .blog .entry-content p {
+    .blog .entry-content p, .archive .entry-content p {
       font-size: 2.5rem; } }
 
-.blog .entry-title {
+.blog .entry-title, .archive .entry-title {
   font-size: 1.25rem;
   font-weight: 300; }
 
