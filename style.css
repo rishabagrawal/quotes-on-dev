@@ -381,10 +381,10 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #ccc #ccc #bbb;
+  border-color: #00cc00;
   border-radius: 3px;
-  background: #e6e6e6;
-  color: rgba(0, 0, 0, 0.8);
+  background: #222222;
+  color: #00cc00;
   font-size: .75rem;
   line-height: 1;
   padding: .6rem 1rem .4rem; }
@@ -414,7 +414,7 @@ input[type="password"],
 input[type="search"],
 textarea {
   color: #666;
-  border: 1px solid #ccc;
+  border: 1px solid #0c0;
   border-radius: 3px; }
   input[type="text"]:focus,
   input[type="email"]:focus,
@@ -757,3 +757,31 @@ object {
 --------------------------------------------------------------*/
 /* All Archives Page */
 /* Submit a Quote Page */
+#quote-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #222222;
+  color: #fff;
+  margin-bottom: 2rem; }
+
+#quote-source {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #222222;
+  color: #fff;
+  margin-bottom: 2rem; }
+
+#quote-content {
+  background: #222222;
+  color: #fff;
+  margin-bottom: 2rem; }
+
+#quote-source-url {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #222222;
+  color: #fff;
+  margin-bottom: 2rem; }
